@@ -126,10 +126,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * 5.3 Entry Content
  * ----------------------------------------------------------------------------
  */
-
- .entry-content a, .comment-content a {
-    color: #B2B2B2;
-}
  
  .entry-content a:hover,
 .comment-content a:hover {
