@@ -1,0 +1,268 @@
+/*
+Theme Name: Subarashii Theme
+Theme URI: https://github.com/Subarashii-no-Fansub/subarashii-theme
+Description: Thème enfant pour le thème Twenty Thirteen
+Author: Subarashii no Fansub
+Author URI: http://www.subarashii-no-fansub.tk/
+Template: twentythirteen
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentythirteen/style.css");
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ *   4.1 - Site Header
+ *   4.2 - Navigation
+ * 5.0 - Content
+ *   5.1 - Entry Header
+ *   5.2 - Entry Meta
+ *   5.3 - Entry Content
+ *   5.4 - Galleries
+ *   5.5 - Post Formats
+ *   5.6 - Attachments
+ *   5.7 - Post/Paging Navigation
+ *   5.8 - Author Bio
+ *   5.9 - Archives
+ *   5.10 - Search Results/No posts
+ *   5.11 - 404
+ *   5.12 - Comments
+ *   5.13 - Multisite
+ * 6.0 - Sidebar
+ *   6.1 - Widgets
+ * 7.0 - Footer
+ * 8.0 - Media Queries
+ * 9.0 - Print
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Reset
+ *
+ * Modified from Normalize.css to provide cross-browser consistency and a smart
+ * default styling of HTML elements.
+ *
+ * @see http://git.io/normalize
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 2.0 Repeatable Patterns
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ 
+/**
+ * 3.0 Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ 
+/**
+ * 4.0 Header
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ 
+ /**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ 
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ 
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+
+ 
+/**
+ * 5.1 Entry Header
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+
+ .entry-meta a {
+	color: #bc360a;
+}
+
+.entry-meta a:hover {
+	color: #bc360a;
+}
+
+ 
+ /**
+ * 5.3 Entry Content
+ * ----------------------------------------------------------------------------
+ */
+
+ .entry-content a, .comment-content a {
+    color: #B2B2B2;
+}
+ 
+ .entry-content a:hover,
+.comment-content a:hover {
+	color: #000000;
+	/*color: #e6402a;*/
+}
+ 
+ 
+ /**
+ * 5.4 Galleries
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.5 Post Formats
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.6 Attachments
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.8 Author Bio
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.9 Archives
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.10 Search Results/No posts
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.11 404
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.12 Comments
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 5.13 Multisite
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 6.0 Sidebar
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 6.1 Widgets
+ * ----------------------------------------------------------------------------
+ */
+ 
+ .widget .widget-title {
+    color: #000000;
+    font-weight: bold;
+}
+
+ .widget a {
+	color: #666666;
+}
+ 
+ .widget a:hover {
+	color: #000000;
+	/*color: #e6402a;*/
+}
+
+ 
+ 
+ /**
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+
+ .site-footer .sidebar-container {
+	background-color: #4D4D4D;
+}
+ 
+ .site-footer .widget a {
+	color: #B2B2B2;
+	/*color: #e6402a;*/
+}
+
+.site-footer .widget-title,
+.site-footer .widget-title a,
+.site-footer .wp-caption-text {
+	color: #000000;
+    font-weight:bold;
+    
+}
+ 
+ /**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+ 
+ 
+ /**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
