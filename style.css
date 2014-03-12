@@ -103,6 +103,14 @@ ul.nav-menu ul a:hover,
 	background-color: #b7b7b7 ;
 	color: #000;
 }
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #db572f;
+	font-weight: bold;
+}
  
 /**
  * 5.0 Content
