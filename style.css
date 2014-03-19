@@ -5,7 +5,7 @@ Description: Thème enfant pour le thème Twenty Thirteen
 Author: Subarashii no Fansub
 Author URI: http://www.subarashii-no-fansub.tk/
 Template: twentythirteen
-Version: 0.1.5
+Version: 0.1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -62,8 +62,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
  .entry-content img:hover
 {
-	transform: rotate(3deg);
-	outline: 3px solid black; 
+	transform: rotate(2deg);
+	outline: 1px solid black; 
 }
  
  
