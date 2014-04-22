@@ -5,7 +5,7 @@ Description: Thème enfant pour le thème Twenty Thirteen
 Author: Subarashii no Fansub
 Author URI: http://www.subarashii-no-fansub.tk/
 Template: twentythirteen
-Version: 0.1.6
+Version: 0.1.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -53,15 +53,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * @see http://git.io/normalize
  * ----------------------------------------------------------------------------
  */
+article {
+	border-bottom-style: dotted;
+}
 
+article > header:hover {
+    border-left-style: dashed;
+}
  
  
- /**
+/**
  * 2.0 Repeatable Patterns
  * ----------------------------------------------------------------------------
  */
- .entry-content img:hover
-{
+.entry-content img:hover {
 	transform: rotate(2deg);
 	outline: 1px solid black; 
 }
@@ -133,7 +138,7 @@ ul.nav-menu ul a:hover,
 	color: #bc360a;
 }
 
- .entry-title a {
+.entry-title a {
 	color: #bc360a;
 }
 
@@ -141,7 +146,7 @@ ul.nav-menu ul a:hover,
  * 5.2 Entry Meta
  * ----------------------------------------------------------------------------
  */
-  .entry-meta a {
+.entry-meta a {
 	color: #595959;
 }
 
@@ -159,7 +164,6 @@ ul.nav-menu ul a:hover,
  .entry-content a:hover,
 .comment-content a:hover {
 	color: #000000;
-	/*color: #e6402a;*/
 }
  
  
@@ -256,7 +260,6 @@ ul.nav-menu ul a:hover,
  
  .widget a:hover {
 	color: #000000;
-	/*color: #e6402a;*/
 }
 
  
@@ -275,15 +278,15 @@ ul.nav-menu ul a:hover,
 	/*color: #e6402a;*/
 }
 
-.site-footer .widget-title,
+ .site-footer .widget-title,
 .site-footer .widget-title a,
 .site-footer .wp-caption-text {
 	color: #000000;
-    font-weight:bold;
+	font-weight: bold;
     
 }
 
-.site-info:after {
+ .site-info:after {
 	content: " – Subarashii no Fansub"; 	
 }
  
