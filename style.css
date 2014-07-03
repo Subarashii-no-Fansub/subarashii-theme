@@ -178,7 +178,10 @@ ul.nav-menu ul a:hover,
  * 5.5 Post Formats
  * ----------------------------------------------------------------------------
  */
-
+/* Status */
+.format-status {
+	background-color: #EA9629;
+}
  
  
  /**
